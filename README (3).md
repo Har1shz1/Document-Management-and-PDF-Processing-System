@@ -282,16 +282,6 @@ Covers:
 
 ---
 
-## 🤝 Contributing
-
-1. Fork the repo  
-2. `git checkout -b feature/new-feature`  
-3. `git commit -m "Add new feature"`  
-4. `git push origin feature/new-feature`  
-5. Open a Pull Request  
-
----
-
 ## 📄 License
 
 MIT License – see `LICENSE` file.
@@ -300,20 +290,10 @@ MIT License – see `LICENSE` file.
 
 ## 🌟 Acknowledgments
 
-- Express.js Team  
+- Express.js     
 - pdf-lib  
 - Bootstrap  
 - Vercel  
 
----
 
-<div align="center">
 
-⭐ Star this repo if you find it useful!
-
-https://img.shields.io/github/stars/your-username/document-manager?style=social  
-https://img.shields.io/github/forks/your-username/document-manager?style=social  
-
-Built with ❤️ for developers
-
-</div>
