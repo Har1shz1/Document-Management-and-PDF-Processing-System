@@ -2,7 +2,7 @@
 	/**
  * From: https://blog.thirdrocktechkno.com/how-to-draw-an-arrow-using-html-5-canvas-and-fabricjs-9500c3f50ecb
  */
-
+ 
 // Extended fabric line class
 fabric.LineArrow = fabric.util.createClass(fabric.Line, {
 
