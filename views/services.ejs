@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head') %>
+    <title>Services | Document Manager</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nav-style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <%- include('nav') %>
+
+    <!-- Hero Section -->
+    <section class="services-hero">
+        <h1>Our Services</h1>
+        <p>
+            A complete suite of tools to manage, edit, convert, and optimize your documents
+            securely and efficiently.
+        </p>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="services-container">
+
+        <div class="service-card">
+            <img src="/images/pdf.png" alt="Document Upload">
+            <h3>Document Upload</h3>
+            <p>
+                Upload PDF and Word documents securely for processing using our cloud-based system.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="/images/addpages.png" alt="Merge PDF">
+            <h3>Merge PDF</h3>
+            <p>
+                Combine multiple PDF files into a single well-structured document in seconds.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="/images/editpdf.png" alt="Rotate PDF">
+            <h3>Rotate PDF</h3>
+            <p>
+                Rotate PDF pages by 90°, 180°, or 270° while preserving layout quality.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="/images/delete.svg" alt="Delete Pages">
+            <h3>Delete Pages</h3>
+            <p>
+                Remove unwanted or sensitive pages from your documents safely.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="/images/pdf-to-word.png" alt="PDF to Word">
+            <h3>PDF to Word</h3>
+            <p>
+                Convert PDF files into fully editable Word documents with high accuracy.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="/images/word-to-pdf.png" alt="Word to PDF">
+            <h3>Word to PDF</h3>
+            <p>
+                Convert Word documents into high-quality PDFs suitable for sharing and printing.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="/images/pdf-to-excel.svg" alt="PDF to Excel">
+            <h3>PDF to Excel</h3>
+            <p>
+                Extract tabular data from PDFs and export it into Excel spreadsheets.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="/images/esign.png" alt="E-Signature">
+            <h3>E-Signature</h3>
+            <p>
+                Digitally sign PDF documents securely without printing or scanning.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- CTA Section -->
+    <section class="services-cta">
+        <h2>Ready to get started?</h2>
+        <p>Choose a tool and manage your documents effortlessly.</p>
+        <a href="/alltools" class="btn-primary">Explore All Tools</a>
+    </section>
+
+    <!-- Footer -->
+    <%- include('footer') %>
+
+</body>
+</html>
