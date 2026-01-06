@@ -318,13 +318,7 @@ Covers:
 
 ## 📄 License
 
-MIT License – see `LICENSE` file.
+MIT License – see [LICENSE](LICENSE) file.
 
 ---
 
-## 🌟 Acknowledgments
-
-- Express.js     
-- pdf-lib  
-- Bootstrap  
-- Vercel  
