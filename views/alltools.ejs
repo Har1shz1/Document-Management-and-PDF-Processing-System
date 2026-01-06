@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head') %>
+    <title>All Tools | Document Manager</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nav-style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <%- include('nav') %>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>All Document Tools</h1>
+        <p>Manage, convert, edit, and optimize your documents with ease</p>
+    </section>
+
+    <!-- Tools Grid -->
+    <section class="tools-container">
+
+        <div class="tool-card">
+            <img src="/images/pdf.png" alt="Merge PDF">
+            <h3>Merge PDF</h3>
+            <p>Combine multiple PDF files into a single document.</p>
+            <a href="/merge" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/editpdf.png" alt="Rotate PDF">
+            <h3>Rotate PDF</h3>
+            <p>Rotate PDF pages by 90°, 180°, or 270°.</p>
+            <a href="/rotate" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/delete.svg" alt="Delete PDF Pages">
+            <h3>Delete Pages</h3>
+            <p>Remove unwanted pages from your PDF document.</p>
+            <a href="/delete" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/pdf-to-word.png" alt="PDF to Word">
+            <h3>PDF to Word</h3>
+            <p>Convert PDF documents into editable Word files.</p>
+            <a href="/pdf-to-word" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/word-to-pdf.png" alt="Word to PDF">
+            <h3>Word to PDF</h3>
+            <p>Convert Word documents into high-quality PDFs.</p>
+            <a href="/word-to-pdf" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/pdf-to-excel.svg" alt="PDF to Excel">
+            <h3>PDF to Excel</h3>
+            <p>Extract tables from PDFs and export to Excel.</p>
+            <a href="/pdftoexcel" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/pdf-to-html.png" alt="PDF to HTML">
+            <h3>PDF to HTML</h3>
+            <p>Convert PDFs into clean HTML documents.</p>
+            <a href="/pdf-to-html" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/esign.png" alt="E-Sign PDF">
+            <h3>E-Sign PDF</h3>
+            <p>Add electronic signatures to PDF files.</p>
+            <a href="/esign" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/addpages.png" alt="Split PDF">
+            <h3>Split PDF</h3>
+            <p>Split a PDF into multiple documents.</p>
+            <a href="/split" class="btn">Use Tool</a>
+        </div>
+
+        <div class="tool-card">
+            <img src="/images/pdf-to-image.png" alt="PDF to Image">
+            <h3>PDF to Image</h3>
+            <p>Convert PDF pages to JPG, PNG, or TIFF.</p>
+            <a href="/pdf-to-image" class="btn">Use Tool</a>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <%- include('footer') %>
+
+</body>
+</html>
