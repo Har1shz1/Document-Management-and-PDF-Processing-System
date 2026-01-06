@@ -131,8 +131,16 @@ sequenceDiagram
 
 ```text
 DOCUMENT_MANAGER/
+DOCUMENT_MANAGER/
 │
-├── controllers/
+├── .env.example.txt          # Environment variables template
+├── .gitignore.txt            # Git ignore rules
+├── README.md                 # Project documentation
+├── package.json              # Dependencies & scripts
+├── vercel.json               # Vercel deployment config
+├── app.js                    # Application entry point
+│
+├── controllers/              # Route controllers (business logic)
 │   ├── homeController.js
 │   ├── uploadController.js
 │   ├── mergeController.js
@@ -140,44 +148,71 @@ DOCUMENT_MANAGER/
 │   ├── rotateController.js
 │   └── deleteController.js
 │
-├── services/
-│   ├── uploadService.js
-│   ├── mergeService.js
-│   ├── convertService.js
-│   ├── rotateService.js
-│   └── deleteService.js
+├── routes/                   # Feature-specific route handlers
+│   ├── merge.js
+│   ├── rotate.js
+│   ├── delete.js
+│   ├── pdf-to-word.js
+│   ├── pdf-to-jpg.js
+│   ├── pdf-to-png.js
+│   ├── pdf-to-json.js
+│   ├── pdf-to-txt.js
+│   ├── pdf-to-ppt.js
+│   ├── pdf-to-tiff.js
+│   ├── pdftoexcel.js
+│   ├── pdftopng.js
+│   ├── split.js
+│   ├── watermark.js
+│   └── editor.js
 │
-├── views/
-│   ├── includes/
-│   │   ├── navbar.ejs
-│   │   ├── footer.ejs
-│   │   └── head.ejs
-│   │
+├── views/                    # EJS templates (UI)
 │   ├── home.ejs
-│   ├── upload.ejs
+│   ├── index.ejs
+│   ├── alltools.ejs
+│   ├── services.ejs
 │   ├── merge.ejs
-│   ├── convert.ejs
 │   ├── rotate.ejs
-│   └── delete.ejs
+│   ├── delete.ejs
+│   ├── howto.ejs
+│   ├── pdf-to-word.ejs
+│   ├── word-to-pdf.ejs
+│   ├── nav.ejs
+│   ├── footer.ejs
+│   └── head.ejs.txt
 │
-├── public/
+├── public/                   # Static assets
 │   ├── css/
-│   │   └── style.css
+│   │   ├── style.css
+│   │   ├── nav-style.css
+│   │   ├── merger.css
+│   │   ├── pdfeditor.css
+│   │   ├── pdf-to-image.css
+│   │   └── pdf-to-png.css
+│   │
 │   ├── js/
-│   │   └── main.js
+│   │   ├── arrow.js
+│   │   ├── pageno.js
+│   │   └── pdfannotate.js
+│   │
 │   └── images/
-│       └── logo.png
+│       ├── pdf.png
+│       ├── a.jpg
+│       ├── addpages.png
+│       ├── editpdf.png
+│       ├── esign.png
+│       ├── delete.svg
+│       ├── pdf-to-excel.svg
+│       ├── pdf-to-html.png
+│       ├── favicon.ico
+│       └── favicon.png
 │
-├── uploads/
-├── processed/
+├── uploads/                  # Uploaded & processed documents
 │
-├── app.js
-├── routes.js
-├── vercel.json
-├── package.json
-├── .env.example
-├── .gitignore
-└── README.md
+└── utils/                    # Utility scripts (optional grouping)
+    ├── word-to-pdf.js
+    ├── pdf-to-excel.js
+    └── pdf-to-image.js
+
 ```
 
 ---
