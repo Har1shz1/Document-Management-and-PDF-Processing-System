@@ -243,6 +243,7 @@ MAX_FILE_SIZE=10485760
 ```
 
 ### 4️⃣ Run the Application
+![Document-Manager](images/Output.png) 
 
 Development:
 ```bash
@@ -303,7 +304,6 @@ Covers:
 ---
 
 ## 📈 Future Enhancements
-![Document-Manager](images/Output.png) 
 
 | Feature | Status |
 |-------|--------|
