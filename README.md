@@ -303,6 +303,7 @@ Covers:
 ---
 
 ## 📈 Future Enhancements
+![Document-Manager](images/Output.png) 
 
 | Feature | Status |
 |-------|--------|
