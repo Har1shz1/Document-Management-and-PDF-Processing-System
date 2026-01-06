@@ -133,14 +133,14 @@ sequenceDiagram
 DOCUMENT_MANAGER/
 DOCUMENT_MANAGER/
 │
-├── .env.example.txt          # Environment variables template
-├── .gitignore.txt            # Git ignore rules
-├── README.md                 # Project documentation
-├── package.json              # Dependencies & scripts
-├── vercel.json               # Vercel deployment config
-├── app.js                    # Application entry point
+├── .env.example.txt          
+├── .gitignore.txt            
+├── README.md                 
+├── package.json              
+├── vercel.json              
+├── app.js                   
 │
-├── controllers/              # Route controllers (business logic)
+├── controllers/              
 │   ├── homeController.js
 │   ├── uploadController.js
 │   ├── mergeController.js
@@ -148,7 +148,7 @@ DOCUMENT_MANAGER/
 │   ├── rotateController.js
 │   └── deleteController.js
 │
-├── routes/                   # Feature-specific route handlers
+├── routes/                   
 │   ├── merge.js
 │   ├── rotate.js
 │   ├── delete.js
@@ -165,7 +165,7 @@ DOCUMENT_MANAGER/
 │   ├── watermark.js
 │   └── editor.js
 │
-├── views/                    # EJS templates (UI)
+├── views/                    
 │   ├── home.ejs
 │   ├── index.ejs
 │   ├── alltools.ejs
@@ -180,7 +180,7 @@ DOCUMENT_MANAGER/
 │   ├── footer.ejs
 │   └── head.ejs.txt
 │
-├── public/                   # Static assets
+├── public/                   
 │   ├── css/
 │   │   ├── style.css
 │   │   ├── nav-style.css
@@ -206,9 +206,9 @@ DOCUMENT_MANAGER/
 │       ├── favicon.ico
 │       └── favicon.png
 │
-├── uploads/                  # Uploaded & processed documents
+├── uploads/                  
 │
-└── utils/                    # Utility scripts (optional grouping)
+└── utils/                    
     ├── word-to-pdf.js
     ├── pdf-to-excel.js
     └── pdf-to-image.js
