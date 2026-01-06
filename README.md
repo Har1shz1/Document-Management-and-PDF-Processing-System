@@ -131,7 +131,6 @@ sequenceDiagram
 
 ```text
 DOCUMENT_MANAGER/
-DOCUMENT_MANAGER/
 │
 ├── .env.example.txt          
 ├── .gitignore.txt            
