@@ -318,7 +318,7 @@ Covers:
 
 ## 📄 License
 
-MIT License – see [LICENSE](LICENSE) file.
+MIT License – see [LICENSE](License) file.
 
 ---
 
